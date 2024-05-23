@@ -1,0 +1,11 @@
+POST http://localhost:3000/books/2
+Content-Type: application/json
+
+{
+    "title":"Hallelujah Diet",
+    "author": "George Malkmus",
+    "description": "Book on Diet"
+
+}
+### GET /books
+GET http://localhost:3000/books
